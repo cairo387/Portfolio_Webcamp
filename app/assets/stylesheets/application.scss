@@ -63,6 +63,12 @@
   color: #000;
  }
  
+ //ヘッダーホバーしたときの色を指定
+ .nav-color:hover {
+  color: #bbbbbb;
+  text-decoration: none;
+ }
+ 
  .l-header_header-box {
   display: flex;
   margin: 0 5px 0 auto;
@@ -78,6 +84,10 @@
   position: relative;
  }
  
+ .l-header_header-box li:hover {
+  background: #99CCCC;
+ }
+ 
   .header-box_color {
    color: #fff;
    display: block;
@@ -86,3 +96,9 @@
    position: relative;
    z-index: 1;
  }
+ 
+   .header-box_color:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
