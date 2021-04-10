@@ -1,3 +1,33 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.Slide {
+  position:relative;
+  top: 50px;
+  left: 195px;
+}
+
+.top-image {
+  background: url("top-image.png") no-repeat;
+  background-size: contain;
+  height: 683px;
+  width: 1024px;
+}
+
+.top-message {
+  width: 1024px;
+  height: 151px;
+  background-color: #fff;
+ }
+ 
+ .top-message h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 24px;
+ }
+ 
+ .top-message-buttton {
+  text-align: center;
+  padding-top: 15px;
+ }

@@ -18,10 +18,7 @@
  @import 'font-awesome';
  
  //画面全体の色を指定
- .full-page {
-  width: 100vw;
-  height: 100vh;
-
+ body {
   background: rgb(218, 220, 222);
  }
  
@@ -60,4 +57,32 @@
  
  .nav-main {
   display: flex;
+ }
+ 
+ .nav-color {
+  color: #000;
+ }
+ 
+ .l-header_header-box {
+  display: flex;
+  margin: 0 5px 0 auto;
+ }
+ 
+ .l-header_header-box li {
+  background: #2f2725;
+  border-radius: 0 0 0 10px;
+  margin-left: 10px;
+  height: 60px;
+  text-align: center;
+  width: 100px;
+  position: relative;
+ }
+ 
+  .header-box_color {
+   color: #fff;
+   display: block;
+   height: 100%;
+   padding-top: 12px;
+   position: relative;
+   z-index: 1;
  }
