@@ -16,3 +16,48 @@
  @import "bootstrap";
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
+ 
+ //画面全体の色を指定
+ .full-page {
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(218, 220, 222);
+ }
+ 
+ ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+//headerのライン
+ .l-header {
+  background: #fff;
+  font-family: "sans-serif";
+  font-size: 11px;
+  height: 40px;
+  left: 0;
+  padding: 10px 0 10px 220px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+ }
+ 
+ //logoについて
+  .header-logo {
+  background: url("logo.png") no-repeat;
+  background-size: contain;
+  height: 180px;
+  left: 5px;
+  padding: 20px 35px 35px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+  display: inline-block;
+ }
+ 
+ .nav-main {
+  display: flex;
+ }

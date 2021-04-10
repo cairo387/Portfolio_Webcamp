@@ -10,10 +10,21 @@
   </head>
 
   <body>
-    <header>
-    </header>
-    <main>
-      <%= yield %>
-    </main>
+    <div class="full-page">
+      <header class="l-header">
+        <a href="/"><h1 class="header-logo"></h1></a>
+        <nav>
+          <ul class="nav-main">
+            <li><%=link_to "HOME", root_path, class:"ml-5"%></li>
+            <li><%=link_to "ABOUT", about_path, class:"ml-4" %></li>
+            <li><%=link_to "ARTICLES", root_path, class:"ml-4"%></li>
+            <li><%=link_to "PRACTATORS", root_path, class:"ml-4"%></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <%= yield %>
+      </main>
+    </div>
   </body>
 </html>
