@@ -62,3 +62,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #ユーザー認証
 gem 'devise'
+
+#レイアウト修正用
+gem 'bootstrap', '~> 4.5'
+#
+gem 'jquery-rails'
+#font使用のため
+gem 'font-awesome-sass', '~> 5.13'
