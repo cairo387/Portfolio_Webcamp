@@ -69,13 +69,14 @@
   text-decoration: none;
  }
  
+ //新規登録、ログイン、マイページ用の四角
  .l-header_header-box {
   display: flex;
   margin: 0 5px 0 auto;
  }
  
  .l-header_header-box li {
-  background: #2f2725;
+  background: #433c3a;
   border-radius: 0 0 0 10px;
   margin-left: 10px;
   height: 60px;
@@ -102,3 +103,8 @@
    text-decoration: none;
  }
  
+ .header-box_icon {
+   color: #fff;
+   position: relative;
+   bottom: 25px;
+ }

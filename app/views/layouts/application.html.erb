@@ -22,8 +22,14 @@
         </nav>
         <div class="l-header_header-box">
           <ul class="l-header_header-box">
-            <li class="registration"><%= link_to "REGISTRATION", new_user_registration_path, {class: "header-box_color"} %></li>
-            <li class="login"><%= link_to "LOGIN", new_user_session_path, {class: "header-box_color"} %></li>
+            <li class="registration">
+              <%= link_to "REGISTRATION", new_user_registration_path, {class: "header-box_color"} %>
+              <i class="fa fa-user fa-lg header-box_icon"></i>
+            </li>
+            <li class="login">
+              <%= link_to "LOGIN", new_user_session_path, {class: "header-box_color"} %>
+              <i class="fa fa-lock fa-lg header-box_icon"></i>
+            </li>
             <li class="mypage">MYPAGE</li>
           </ul>
         </div>
