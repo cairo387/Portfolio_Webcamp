@@ -161,6 +161,38 @@
   height: 685px;
   width: 100%;
  }
+ 
+ .login-display h1{
+  padding-top: 30px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS';
+  line-height: 98px;
+  text-align: center;
+  padding-right: 200px;
+ }
+ 
+ .login-display h4{
+  font-weight: 100;
+  text-align: center;
+  padding-right: 200px;
+ }
+ 
+ .login-display_form {
+  padding-top: 40px;
+  padding-left: 280px;
+  color: #444444;
+ }
+ 
+ .login-button {
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 400px;
+ }
+ 
+ .btn-secondary:hover {
+  background-color: #99CCCC;
+ }
+ 
  //顧客側ログイン画面ここまで
  
  //顧客側新規登録画面ここから
@@ -212,7 +244,42 @@
   position: relative;
   background-color: #fff;
   bottom: 102px;
-  height: 685px;
+  height: 1215px;
   width: 100%;
+ }
+ 
+ .signup-display h1{
+  padding-top: 30px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS';
+  line-height: 98px;
+  text-align: center;
+  padding-right: 200px;
+ }
+ .signup-display h4{
+  font-weight: 100;
+  text-align: center;
+  padding-right: 200px;
+ }
+ 
+ .signup-display_text2 {
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 200px;
+ }
+  .required_item {
+  color: #BB0000;
+ }
+ 
+ .signup-display_form {
+  padding-top: 40px;
+  padding-left: 280px;
+  color: #444444;
+ }
+ 
+ .signup-button {
+  text-align: center;
+  padding-top: 45px;
+  padding-right: 400px;
  }
  //顧客側新規登録画面ここまで
