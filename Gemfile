@@ -69,3 +69,9 @@ gem 'bootstrap', '~> 4.5'
 gem 'jquery-rails'
 #font使用のため
 gem 'font-awesome-sass', '~> 5.13'
+
+#画像ファイルアップロード用
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+
+#アップロードした画像のリサイズ用
+gem "refile-mini_magick"

@@ -11,10 +11,3 @@ Admin.create!(
    email: 'test@test.com',
    password: 'testtest'
    )
-   
-Article.create!{
-   admin_id: '1',
-   genre_id: '1',
-   title: '【解剖学】背骨の役割について',
-   body: 'texttexttexttexttext'
-}
