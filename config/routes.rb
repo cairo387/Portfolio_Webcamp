@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'homes#top' 
   get '/about' => 'homes#about'
   resources :articles, only: [:index,:show]
+  resources :chiropractors, only: [:index]
   
   devise_for :chiropractors, controllers: {
   sessions: 'chiropractors/sessions',
@@ -23,5 +24,9 @@ Rails.application.routes.draw do
   
   namespace :admin do
     resources :articles, only: [:new, :create, :edit, :update, :delete]
+  end
+  
+  namespace :chiropractor do
+    resources :chiropractors, only: [:show, :edit, :update]
   end
 end

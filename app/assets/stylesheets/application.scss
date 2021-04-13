@@ -98,7 +98,7 @@
    z-index: 1;
  }
  
-   .header-box_color:hover {
+ .header-box_color:hover {
    color: #fff;
    text-decoration: none;
  }
@@ -283,3 +283,33 @@
   padding-right: 400px;
  }
  //顧客側新規登録画面ここまで
+ 
+ 
+ //管理者ログイン画面ここから
+ .login-display_admin {
+  position: relative;
+  background-color: #fff;
+  bottom: 102px;
+  height: 685px;
+  width: 100%;
+ }
+  .login-display_admin-title {
+  padding-top: 30px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS';
+  line-height: 98px;
+  text-align: center;
+  padding-right: 200px;
+ }
+ .login-display_admin-text {
+  position: relative;
+  bottom: 108px;
+  right: 60px;
+  background-color: #fff;
+  margin-top: 10px;
+  height: 98px;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+ }
+ 
+
