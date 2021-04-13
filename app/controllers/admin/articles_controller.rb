@@ -5,6 +5,13 @@ class Admin::ArticlesController < ApplicationController
   
   def create
     @article = Article.new(article_params)
+    @article.admin_id = 1
+    @article.genre_id = 1
+    if @article.save
+      redirect_to articles_path
+    else
+      render :new
+    end
   end
   
   def edit
@@ -18,6 +25,6 @@ class Admin::ArticlesController < ApplicationController
   
   private
   def article_params
-     params.require(:blog).permit(:title, :image, :body, :genre_id)
+     params.require(:article).permit(:title, :image, :body, :genre_id)
   end
 end
