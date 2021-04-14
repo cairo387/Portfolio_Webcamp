@@ -29,4 +29,8 @@ Rails.application.routes.draw do
   namespace :chiropractor do
     resources :chiropractors, only: [:show, :edit, :update]
   end
+  
+  namespace :user do
+    resources :users, only: [:show, :edit, :update]
+  end
 end
