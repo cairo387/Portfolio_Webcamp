@@ -8,13 +8,13 @@
 
 Chiropractor.create!(
    treatment_id: '1',
-   nickname: 'hoge',
-   name: 'hogehoge',
+   nickname: 'piyo',
+   name: 'piyopiyo',
    postal_code: '0000000',
    prefecture_code: '埼玉県',
-   address_city: 'hoge市hoge町',
+   address_city: 'hoge市piyo町',
    address_street: '3番地25号',
    phone_number: '00000000000',
-   email: 'hoge@hoge.com',
+   email: 'piyo@piyo.com',
    password: 'hogehoge'
    )
