@@ -149,7 +149,7 @@
   background-color: #fff;
   margin-top: 10px;
   height: 98px;
-  width: 100%;
+  width: 76.2%;
   border-radius: 0 10px 10px 0;
   text-align: center;
  }
@@ -159,7 +159,7 @@
   background-color: #fff;
   bottom: 102px;
   height: 685px;
-  width: 100%;
+  width: 87%;
  }
  
  .login-display h1{
@@ -168,13 +168,11 @@
   font-family: 'Comic Sans MS';
   line-height: 98px;
   text-align: center;
-  padding-right: 200px;
  }
  
  .login-display h4{
   font-weight: 100;
   text-align: center;
-  padding-right: 200px;
  }
  
  .login-display_form {
@@ -186,7 +184,7 @@
  .login-button {
   text-align: center;
   padding-top: 5px;
-  padding-right: 400px;
+  padding-right: 340px;
  }
  
  .btn-secondary:hover {
@@ -235,7 +233,7 @@
   background-color: #fff;
   margin-top: 10px;
   height: 98px;
-  width: 100%;
+  width: 64.7%;
   border-radius: 0 10px 10px 0;
   text-align: center;
  }
@@ -245,7 +243,7 @@
   background-color: #fff;
   bottom: 102px;
   height: 1215px;
-  width: 100%;
+  width: 87%;
  }
  
  .signup-display h1{
@@ -254,18 +252,15 @@
   font-family: 'Comic Sans MS';
   line-height: 98px;
   text-align: center;
-  padding-right: 200px;
  }
  .signup-display h4{
   font-weight: 100;
   text-align: center;
-  padding-right: 200px;
  }
  
  .signup-display_text2 {
   padding-top: 20px;
   text-align: center;
-  padding-right: 200px;
  }
   .required_item {
   color: #BB0000;
@@ -280,8 +275,21 @@
  .signup-button {
   text-align: center;
   padding-top: 45px;
-  padding-right: 400px;
+  padding-right: 340px;
  }
+ .signup-display_induction {
+  padding-top: 100px;
+  text-align:center;
+ }
+ .signup-display_induction-link {
+  text-decoration: none;
+  color: #000;
+ }
+  .signup-display_induction-link:hover {
+  text-decoration: none;
+  color: #bbbbbb;
+ }
+ 
  //顧客側新規登録画面ここまで
  
  
@@ -311,5 +319,24 @@
   border-radius: 0 10px 10px 0;
   text-align: center;
  }
- 
+ //整体師新規登録ページここから
+ .signup_chiropractor-display {
+  position: relative;
+  background-color: #fff;
+  bottom: 102px;
+  height: 1375px;
+  width: 87%;
+ }
+ .signup_chiropractor-display_title {
+  padding-top: 30px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS';
+  line-height: 98px;
+  text-align: center;
+ }
+ .signup_chiropractor-display_text {
+  font-weight: 100;
+  text-align: center;
+ }
+ //整体師新規登録ページここまで
 

@@ -16,7 +16,7 @@
 <div class="chiropractor_show-display">
   <div class="chiropractor_profile">
     <h2 class="chiropractor_profile-name"><%= @chiropractor.nickname %></h2>
-    <%= attachment_image_tag(@chiropractor, :image, width:"90px", format: 'jpeg', fallback: "",class: "chiropractor_image") %>
+    <%= attachment_image_tag(@chiropractor, :image, width:"90px", format: 'jpeg', fallback: "no-image.png",class: "chiropractor_image") %>
     <%= link_to "EDIT", edit_chiropractor_chiropractor_path(@chiropractor), class: "btn btn-secondary col-sm-6 btn_edit" %>
     <h2 class="performance">📄Performance</h2>
     <h2 class="price">💰Price</h2>
