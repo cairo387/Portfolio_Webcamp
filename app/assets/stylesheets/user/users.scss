@@ -1,6 +1,7 @@
 // Place all the styles related to the user::users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//userのshow画面ここから
 .pageHead_user {
   display: flex;
   padding-bottom: 5px;
@@ -42,4 +43,43 @@
   font-family: 'Comic Sans MS';
   line-height: 98px;
   text-align: center;
+ }
+ .user_image {
+  margintop: 30px;
+  margin-left: 555px;
+  border-radius: 50%;
+ }
+ .user_name {
+  padding-top: 50px;
+  text-align:center;
+ }
+ .btn_user_edit {
+  position:relative;
+  top:30px;
+  left:540px;
+ }
+ //userのshow画面ここまで
+ 
+ //userのedit画面ここから
+ .user_edit-display {
+  position: relative;
+  background-color: #fff;
+  bottom: 102px;
+  height: 915px;
+  width: 86.9%;
+ }
+ .user_edit-display_title {
+  padding-top: 30px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS';
+  line-height: 98px;
+  text-align: center;
+ }
+ .user_edit-display_text {
+  text-align: center;
+ }
+ .user_edit-display_form {
+  padding-top: 40px;
+  padding-left: 280px;
+  color: #444444;
  }
