@@ -5,6 +5,7 @@ class Chiropractor < ApplicationRecord
          :recoverable, :rememberable, :validatable
          
   has_many :favorites, dependent: :destroy
+  has_many :reviews, dependent: :destroy
   
   #画像投稿用(refile)
   attachment :image

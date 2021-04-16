@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
          
   has_many :favorites, dependent: :destroy
-  has_many :favorite_posts, through: :favorites
+  has_many :reviews, dependent: :destroy
   
    #画像投稿用(refile)
   attachment :image
