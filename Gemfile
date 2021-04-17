@@ -75,3 +75,9 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 
 #アップロードした画像のリサイズ用
 gem "refile-mini_magick"
+
+#マークダウン形式に対応するため
+gem 'redcarpet', '~> 2.3.0'
+
+#シンタックスハイライトに対応させるため
+gem 'coderay'
